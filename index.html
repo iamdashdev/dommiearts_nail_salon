@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dommie Arts Beauty Salon - Premium Nail Artistry</title>
+		<meta
+			name="description"
+			content="Dommie Arts Beauty Salon offers premium nail art, manicures, and pedicures in a luxurious setting. Book your appointment today." />
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+			rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap"
+			rel="stylesheet" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap"
+			rel="stylesheet" />
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Swiper CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="header">
+			<div class="container">
+				<a href="#" class="logo">Dommie Arts</a>
+				<button class="nav-toggle" aria-label="Toggle navigation">
+					<i class="fas fa-bars"></i>
+				</button>
+				<nav class="nav">
+					<ul class="nav-list">
+						<li><a href="#home" class="nav-link active">Home</a></li>
+						<li><a href="#services" class="nav-link">Services</a></li>
+						<li><a href="#gallery" class="nav-link">Gallery</a></li>
+						<li><a href="#contact" class="nav-link">Contact</a></li>
+					</ul>
+					<a href="#contact" class="btn btn-primary nav-btn">Book Now</a>
+				</nav>
+			</div>
+		</header>
+
+		<!-- Hero Section -->
+		<section id="home" class="hero">
+			<div class="hero-overlay"></div>
+			<div class="container hero-content">
+				<h1 class="hero-title fade-in">Artistry at Your Fingertips</h1>
+				<p class="hero-subtitle fade-in delay-1">
+					Where your nails get their real definition
+				</p>
+				<div class="hero-btns fade-in delay-2">
+					<a href="#services" class="btn btn-primary">Our Services</a>
+					<a href="#gallery" class="btn btn-outline">View Gallery</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Services Section -->
+		<section id="services" class="section services">
+			<div class="container">
+				<div class="section-header text-center">
+					<h2 class="section-title">Our Services</h2>
+					<p class="section-desc">
+						Pamper yourself with our exclusive treatments designed for your
+						relaxation and beauty.
+					</p>
+				</div>
+
+				<div class="swiper services-slider">
+					<div class="swiper-wrapper services-wrapper">
+						<!-- Services will be loaded dynamically -->
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Gallery Section -->
+		<section id="gallery" class="section gallery">
+			<div class="container">
+				<div class="section-header text-center">
+					<h2 class="section-title">Latest Masterpieces</h2>
+					<p class="section-desc">
+						Explore our portfolio of stunning nail transformations.
+					</p>
+				</div>
+
+				<div class="gallery-grid">
+					<!-- Gallery items will be loaded dynamically -->
+				</div>
+
+
+				<div class="text-center mt-4">
+					<a
+						href="https://www.instagram.com/dommie_arts/"
+						target="_blank"
+						class="btn btn-outline"
+						>Follow on Instagram</a
+					>
+				</div>
+			</div>
+		</section>
+
+		<!-- Promo/Banner Section -->
+		<section class="banner">
+			<div class="container banner-content text-center reveal">
+				<h2>Ready to Elevate Your Style?</h2>
+				<p>Book your appointment today and let us bring your vision to life.</p>
+				<a href="#contact" class="btn btn-light">Schedule Now</a>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="section contact">
+			<div class="container">
+				<div class="section-header text-center">
+					<h2 class="section-title">Visit Us</h2>
+				</div>
+
+				<div class="contact-wrapper">
+					<div class="contact-info reveal">
+						<div class="info-item">
+							<i class="fas fa-map-marker-alt"></i>
+							<div>
+								<h4>Location</h4>
+								<p>
+									Uptown next to Eland Hotel<br />HXH2+Q7 Nyeri
+								</p>
+							</div>
+						</div>
+						<div class="info-item">
+							<i class="fas fa-phone-alt"></i>
+							<div>
+								<h4>Call Us</h4>
+								<p>0714 734883</p>
+							</div>
+						</div>
+						<div class="info-item">
+							<i class="fas fa-envelope"></i>
+							<div>
+								<h4>Email</h4>
+								<p>hello@dommiearts.com</p>
+							</div>
+						</div>
+						<div class="info-item">
+							<i class="fas fa-clock"></i>
+							<div>
+								<h4>Hours</h4>
+								<p>
+									Mon-Fri: 8am - 8pm<br />
+									Sat: 8am - 8pm<br />
+									Sun: 10am - 7pm
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="contact-form-wrapper reveal">
+						<form class="contact-form" id="booking-form">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" id="name" placeholder="Your Name" required />
+							</div>
+							<div class="form-group">
+								<label for="phone">Phone Number</label>
+								<input
+									type="tel"
+									id="phone"
+									placeholder="Your Phone Number"
+									required />
+							</div>
+							<div class="form-group">
+								<label for="service">Service</label>
+								<select id="service" required>
+									<option value="" disabled selected>Select a Service</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="date">Preferred Date</label>
+								<input type="date" id="date" required />
+							</div>
+							<div class="form-group">
+								<label for="time">Preferred Time</label>
+								<input type="time" id="time" required />
+							</div>
+							<button type="submit" class="btn btn-primary block">
+								Request Appointment via WhatsApp
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer-logo">
+						<h3>Dommie Arts</h3>
+						<p>Where beauty meets creativity.</p>
+					</div>
+					<div class="footer-links">
+						<a href="#home">Home</a>
+						<a href="#services">Services</a>
+						<a href="#gallery">Gallery</a>
+						<a href="#contact">Contact</a>
+					</div>
+					<div class="footer-social">
+						<a href="https://www.instagram.com/dommie_arts/"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.facebook.com/DommieArts?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://www.tiktok.com/@dommie_arts?_r=1&_t=ZS-939KmlzzCmm"><i class="fab fa-tiktok"></i></a>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<p>&copy; 2026 Dommie Arts Beauty Salon. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
