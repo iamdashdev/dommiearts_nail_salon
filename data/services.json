@@ -1,50 +1,52 @@
-[
-    {
-        "title": "Gel Polish",
-        "description": "Long-lasting, chip-resistant polish in vibrant colors.",
-        "price": "From KES 1,500",
-        "image": "assets/services/gel-polish.png"
-    },
-    {
-        "title": "Acrylic Overlays",
-        "description": "Strengthen your natural nails with a durable acrylic layer.",
-        "price": "From KES 2,500",
-        "image": "assets/services/acrylic-overlays.png"
-    },
-    {
-        "title": "Acrylics & Extensions",
-        "description": "Add length and shape with our premium acrylic extensions.",
-        "price": "From KES 3,500",
-        "image": "assets/services/acrylics-with-extensions.png"
-    },
-    {
-        "title": "Tips with Builder Gel",
-        "description": "Natural looking extensions with the strength of builder gel.",
-        "price": "From KES 3,000",
-        "image": "assets/services/tips-with-builder-gel.png"
-    },
-    {
-        "title": "Stickons",
-        "description": "Quick, temporary glam for special occasions.",
-        "price": "From KES 1,000",
-        "image": "assets/services/stickons.png"
-    },
-    {
-        "title": "Luxury Pedicure",
-        "description": "Relaxing foot treatment with exfoliation and massage.",
-        "price": "From KES 2,000",
-        "image": "assets/services/pedicure.jpg"
-    },
-    {
-        "title": "Waxing",
-        "description": "Smooth, hair-free skin with our gentle waxing services.",
-        "price": "From KES 500",
-        "image": "assets/services/waxing.jpg"
-    },
-    {
-        "title": "Eyebrow Shaping",
-        "description": "Define your look with perfectly shaped brows.",
-        "price": "From KES 300",
-        "image": "assets/services/eyebrows-shaping.jpg"
-    }
-]
+{
+    "items": [
+        {
+            "title": "Gel Polish",
+            "description": "Long-lasting, chip-resistant polish in vibrant colors.",
+            "price": "From KES 1,500",
+            "image": "assets/services/gel-polish.png"
+        },
+        {
+            "title": "Acrylic Overlays",
+            "description": "Strengthen your natural nails with a durable acrylic layer.",
+            "price": "From KES 2,500",
+            "image": "assets/services/acrylic-overlays.png"
+        },
+        {
+            "title": "Acrylics & Extensions",
+            "description": "Add length and shape with our premium acrylic extensions.",
+            "price": "From KES 3,500",
+            "image": "assets/services/acrylics-with-extensions.png"
+        },
+        {
+            "title": "Tips with Builder Gel",
+            "description": "Natural looking extensions with the strength of builder gel.",
+            "price": "From KES 3,000",
+            "image": "assets/services/tips-with-builder-gel.png"
+        },
+        {
+            "title": "Stickons",
+            "description": "Quick, temporary glam for special occasions.",
+            "price": "From KES 1,000",
+            "image": "assets/services/stickons.png"
+        },
+        {
+            "title": "Luxury Pedicure",
+            "description": "Relaxing foot treatment with exfoliation and massage.",
+            "price": "From KES 2,000",
+            "image": "assets/services/pedicure.jpg"
+        },
+        {
+            "title": "Waxing",
+            "description": "Smooth, hair-free skin with our gentle waxing services.",
+            "price": "From KES 500",
+            "image": "assets/services/waxing.jpg"
+        },
+        {
+            "title": "Eyebrow Shaping",
+            "description": "Define your look with perfectly shaped brows.",
+            "price": "From KES 300",
+            "image": "assets/services/eyebrows-shaping.jpg"
+        }
+    ]
+}

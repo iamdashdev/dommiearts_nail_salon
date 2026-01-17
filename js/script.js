@@ -92,7 +92,8 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadServices() {
         try {
             const response = await fetch('data/services.json');
-            const services = await response.json();
+            const data = await response.json();
+            const services = data.items;
             const servicesWrapper = document.querySelector('.services-wrapper');
             
             servicesWrapper.innerHTML = services.map(service => `
@@ -172,7 +173,8 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadGallery() {
         try {
             const response = await fetch('data/gallery.json');
-            const gallery = await response.json();
+            const data = await response.json();
+            const gallery = data.items;
             const galleryGrid = document.querySelector('.gallery-grid');
 
             galleryGrid.innerHTML = gallery.map(item => `
