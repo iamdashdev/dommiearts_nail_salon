@@ -174,8 +174,18 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch('data/gallery.json');
             const data = await response.json();
-            const gallery = data.items;
-            const galleryGrid = document.querySelector('.gallery-grid');
+            let gallery = data.items;
+            
+            // Check if we are on the home page or masterpieces page
+            const isHomePage = document.querySelector('.gallery-grid') && !document.getElementById('full-gallery');
+            const galleryGrid = isHomePage ? document.querySelector('.gallery-grid') : document.getElementById('full-gallery');
+
+            if (!galleryGrid) return;
+
+            // Limit to 10 on home page
+            if (isHomePage) {
+                gallery = gallery.slice(0, 10);
+            }
 
             galleryGrid.innerHTML = gallery.map(item => `
                 <div class="gallery-item reveal">
@@ -184,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `).join('');
 
             // Observe new elements
-            document.querySelectorAll('.gallery-grid .reveal').forEach(el => revealObserver.observe(el));
+            document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
         } catch (error) {
             console.error('Error loading gallery:', error);
         }

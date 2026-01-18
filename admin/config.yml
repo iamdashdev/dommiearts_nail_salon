@@ -32,3 +32,25 @@ collections:
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Price", name: "price", widget: "string" }
               - { label: "Image", name: "image", widget: "image" }
+
+  - name: "email_templates"
+    label: "Email Templates"
+    files:
+      - name: "confirmation"
+        label: "Email Confirmation"
+        file: "emails/confirmation.html"
+        format: "raw"
+        fields:
+          - { label: "HTML Content", name: "body", widget: "code", default_language: "html" }
+      - name: "invitation"
+        label: "Invitation"
+        file: "emails/invitation.html"
+        format: "raw"
+        fields:
+          - { label: "HTML Content", name: "body", widget: "code", default_language: "html" }
+      - name: "recovery"
+        label: "Password Recovery"
+        file: "emails/recovery.html"
+        format: "raw"
+        fields:
+          - { label: "HTML Content", name: "body", widget: "code", default_language: "html" }

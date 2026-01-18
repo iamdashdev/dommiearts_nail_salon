@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Your Account - Dommie Arts Beauty Salon</title>
+    <style>
+        body {
+            font-family: 'Lato', Helvetica, Arial, sans-serif;
+            background-color: #fcfbf9;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        .header {
+            background-color: #ec407a;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            color: #ffffff;
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ec407a;
+            color: #ffffff !important;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #666666;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dommie Arts Beauty Salon</h1>
+        </div>
+        <div class="content">
+            <h2>Login to your account</h2>
+            <p>Click the button below to log into your account at Dommie Arts Beauty Salon.</p>
+            <a href="{{ .ConfirmationURL }}" class="btn">Log In</a>
+        </div>
+        <div class="footer">
+            <p>&copy; 2026 Dommie Arts Beauty Salon. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
