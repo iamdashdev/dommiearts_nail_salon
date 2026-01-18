@@ -1,28 +1,32 @@
 {
-    "items": [
-        {
-            "title": "Nail Art 1",
-            "image": "assets/nail-art-1.jpg"
-        },
-        {
-            "title": "Nail Art 2",
-            "image": "assets/nail-art-2.jpg"
-        },
-        {
-            "title": "Nail Art 3",
-            "image": "assets/nail-art-3.jpg"
-        },
-        {
-            "title": "Nail Art 4",
-            "image": "assets/nail-art-4.jpg"
-        },
-        {
-            "title": "Nail Art 5",
-            "image": "assets/nail-art-5.jpg"
-        },
-        {
-            "title": "Nail Art 6",
-            "image": "assets/nail-art-6.jpg"
-        }
-    ]
+  "items": [
+    {
+      "title": "Nail Art 1",
+      "image": "assets/images/nail-art-5.jpg"
+    },
+    {
+      "title": "Nail Art 2",
+      "image": "assets/nail-art-2.jpg"
+    },
+    {
+      "title": "Nail Art 3",
+      "image": "assets/nail-art-3.jpg"
+    },
+    {
+      "title": "Nail Art 4",
+      "image": "assets/nail-art-4.jpg"
+    },
+    {
+      "title": "Nail Art 5",
+      "image": "assets/nail-art-5.jpg"
+    },
+    {
+      "title": "Nail Art 6",
+      "image": "assets/nail-art-6.jpg"
+    },
+    {
+      "title": "Nail art 7",
+      "image": "assets/images/acrylics-with-extensions.png"
+    }
+  ]
 }
